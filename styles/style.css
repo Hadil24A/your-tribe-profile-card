@@ -2,15 +2,15 @@
   box-sizing: border-box;
 }
 
-html {
-  height: 25vh;
+head {
+  width: 120em;
+  height:2em
 }
 
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 150vh;
   font-family: 'Segoe UI',sans-serif;
   color: #b02c65;
   font-size: medium;
@@ -18,87 +18,61 @@ body {
   
 }
 
-
-id.id {
-  margin-left
-}
 article {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  width: 50vw;
-  max-width: 25em;
-  min-width: 20em;
-  border-radius: 1rem;
+  min-width: 25em;
+  border-radius: 5rem;
   background: powderblue;
-  background: linear-gradient(#bf7476(#bf7494) 40%, #bf7494 100%);
+  
   
 }
 
 h1 {
-  margin: 2rem 0 1rem;
-  color: rgb(50, 148, 167);
+  color: #217181;
   font-family: monospace;
   font-size: xx-large; 
-  text-shadow: #b36485;
+  
 
-}d
+}
 
-
-img {
-  position: relative;
-  top: 1rem;
+ .ik {
+ 
   width: 10em;
-  height: auto;
   border: 5px solid #a93668;
-  border-radius: 15%;
-  margin-top: -1%;
+  border-radius: 25%;
+ }
 
-}
+ .cooking {
+  margin-left: 5;
+  width: 5em;
+  border: 3px solid;
+  border-color: #85c3a5;
+  border-radius: 35%;
 
-dl {
-    width: 100%;
-  margin-bottom: 0;
-  padding: 5rem 0 3rem;
-  text-align: center;
-  background: rgb(135, 207, 224);
-  margin-right: 0%;
+ }
+
+ .reading {
+  margin-right: 5;
+  width: 5em;
+  border: 3px solid;
+  border-color: #85c3a5;
+  border-radius: 35%;
+  object-position: 55%;
+ }
+
+ .football {
   
-}
+  width: 5em;
+  border: 3px solid;
+  border-color: #85c3a5;
+  border-radius: 35%;
+ }
 
-dt {
-  width: 100%;
-  margin-top: 0rem;
-  padding-top: 0rem;
-  margin-left: 5%;
-  
+.mail {
+  color: #217181;
+  margin-bottom: 10%;
 }
-div {
-  width: 100%;
-  margin-top: -6.5rem;
-  padding-top: 0rem;
-  margin-left:115%;
-}
-dt:nth-of-type(1) {
-  
-}
-dt:nth-of-type(2) {
-  transform: translateY(1rem);
-}
-
-
-p { 
-  margin: 0;
-}
-
-article > p {
-  width: 100%;
-  margin-top: 0;
-  padding: 3rem 2rem;
-  border-radius: 15 15 15rem 15rem;
-  text-align: center;
-  background: rgba(54, 159, 192, 0.5);
-}
-
