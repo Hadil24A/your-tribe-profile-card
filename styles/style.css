@@ -52,6 +52,7 @@ h1 {
   border: 3px solid;
   border-color: #85c3a5;
   border-radius: 35%;
+  object-position: left center;
 
  }
 
@@ -61,6 +62,7 @@ h1 {
   border: 3px solid;
   border-color: #85c3a5;
   border-radius: 35%;
+  object-position: center;
  }
 
  .football {
@@ -69,6 +71,7 @@ h1 {
   border: 3px solid;
   border-color: #85c3a5;
   border-radius: 35%;
+  object-position: right center;
  }
 
 .mail {
